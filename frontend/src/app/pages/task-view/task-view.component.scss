@@ -23,6 +23,7 @@
     flex-grow: 1;
     border-radius: 0px 8px 8px 0px;
     padding: 42px;
+    position: relative;
 }
 
 .title {
@@ -81,4 +82,14 @@
         text-decoration: line-through;
         opacity: 0.6;
     }
+}
+
+.circle-add-button {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 999px;
+    font-size: 20px;
 }
